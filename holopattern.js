@@ -2,7 +2,7 @@ const input=require("readline-sync");
 let n = input.questionInt("enter the number:");
 let i = 1;
 s="";
-while(i<=n)
+while(i<n)
 {
     j=1;
     while(j<=i)
@@ -26,6 +26,7 @@ while(i<=n)
     s+=("\n");
     i++;
 }
+
 while(i>0)
 {
     s+=("*");
